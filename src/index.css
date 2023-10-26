@@ -22,3 +22,7 @@ code {
 	box-shadow: 0px 2.98256px 7.4564px rgba(255, 82, 82, 0.397);
 	background-color: #F55A5A;
 }
+
+.card--container{
+  background-color: burlywood;
+}
