@@ -4,6 +4,7 @@
 body{
   margin: 0;
   box-sizing: border-box;
+  background-color: burlywood;
 }
 
 code {
@@ -23,6 +24,8 @@ code {
 	background-color: #F55A5A;
 }
 
-.card--container{
-  background-color: burlywood;
+
+.cards > img{
+  margin-left: 30px;
+  border-radius: 20px;
 }
