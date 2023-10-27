@@ -8,6 +8,7 @@ export default[
         cardImg: Abuja,
         Location: "Nigeria",
         title: "Abuja City Gate",
+        mapUrl: "https://bing.com/search?q=google+map+url+for+Abujacitygate",
         description: "Something",
         timePeriod: "26 Oct, 2023 - 10 Nov, 2023"
     },
@@ -16,6 +17,7 @@ export default[
         cardImg: Arc,
         Location: "France",
         title: "Arc de Triomphe",
+        mapUrl: "https://www.google.com/maps/d/viewer?mid=1VIiHH-3MmKc-GHoDzvDtAW8Mb7c",
         description: "Something",
         timePeriod: "15 Nov, 2023 - 30 Nov, 2023"
     },
@@ -25,6 +27,7 @@ export default[
         Location: "Rome",
         title: "Colosseum of Rome",
         description: "Something",
+        mapUrl: "https://www.google.com/maps/d/viewer?mid=1sEYPLKj4cnMZIoCSoWs3soNq9W0",
         timePeriod: "1 Dec, 2023 - 16 Dec, 2023"
     },
     {
@@ -32,6 +35,7 @@ export default[
         cardImg: Japan,
         Location: "Japan",
         title: "Mt. Fuji",
+        mapUrl:"https://virtualglobetrotting.com/map/summit-of-mount-fuji/view/google/",
         description: "Something",
         timePeriod: "18 Dec, 2023 - 26 Dec, 2023"
     }

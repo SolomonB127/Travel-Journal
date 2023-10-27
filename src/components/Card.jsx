@@ -5,15 +5,18 @@ const Card = (props) => {
     <section className='Card--container'>
       <div className='cards'>
         <img src= {props.item.cardImg} alt=""  width={300}/> 
-        <div>
+        <div className='cards--props'>
+          <div className='card--location'>
           <img src= {pin} alt="" />
           <h4>{props.item.Location}</h4> 
-          <span>View on Google Map Link</span>
+          <a href={props.item.mapUrl}
+          target='_blank'
+          rel='nonreferrer'>View on Google Maps Link</a>
+          </div>
           <h1>{props.item.title}</h1>
           <h5>{props.item.timePeriod}</h5>
           <p>{props.item.description}</p>
         </div>
-        <hr />  
       </div>
     </section>
   )

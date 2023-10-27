@@ -6,14 +6,16 @@ import Data from './data';
 function App() {
   const mapData = Data.map(item => {
     return <Card 
-    key = {item.key}
+    key = {item.id}
     item = {item}
     />
   })
   return (
     <div className="App">
       <NavBar />
-      {mapData}
+      <section className="card--list">
+        {mapData}
+      </section>
     </div>
   );
 }
